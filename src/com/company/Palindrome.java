@@ -1,7 +1,5 @@
 package com.company;
 
-import java.lang.reflect.Array;
-
 //Класс проверки слова на палиндром
 public class Palindrome {
     //Метод вывода результата на экран
