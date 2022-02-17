@@ -3,7 +3,7 @@ package com.company;
 public class Primes {
     //метод перебора чисел от 2 до 200 и вывод простых чисел из этого списка
     public static void main(String[] args) {
-        for (int i = 2; i <= 200; i++){
+        for (int i = 2; i <= 100; i++){
             if (isPrime(i)){
                 System.out.println(i);
             }
