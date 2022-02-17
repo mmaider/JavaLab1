@@ -5,9 +5,8 @@ import java.lang.reflect.Array;
 public class Palindrome {
     //Метод вывода результата на экран
     public static void main(String[] args) {
-        String[] arr = {"java", "Palindrome", "madam", "racecar", "apple", "kayak", "song", "noon"};
-        for (int i = 0; i < arr.length; i++) {
-            String s = arr[i];
+        for (int i = 0; i < args.length; i++) {
+            String s = args[i];
             if (isPalindrome(s)) {
                 System.out.println(s + " является палиндромом");
             } else {
